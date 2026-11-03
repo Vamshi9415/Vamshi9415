@@ -1,178 +1,63 @@
+<!-- Terminal-inspired GitHub profile | Vamshi Bachu -->
+
 <div align="center">
 
 <img src="./assets/banner.svg" alt="Vamshi Bachu — AI Engineer · Backend Developer" width="760" />
 
 <a href="https://github.com/Vamshi9415">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&width=720&height=40&lines=%24+python+-m+vamshi_bachu+--role+ai_engineer;retrieval+%E2%86%92+reasoning+%E2%86%92+action;RAG+%C2%B7+Agents+%C2%B7+MCP+%C2%B7+Guardrails;Making+LLM+systems+useful+beyond+the+demo" alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF41&background=0D111700&center=true&vCenter=true&width=700&height=38&lines=%24+whoami+%E2%86%92+Vamshi+Bachu;AI+Engineer+%7C+Backend+Developer;RAG+%C2%B7+Agents+%C2%B7+MCP;Build.+Learn.+Ship." alt="Terminal typing intro" />
 </a>
 
 </div>
 
 ---
 
-\`\`\`bash
-vamshi@ai-lab:~$ cat profile.py
-\`\`\`
+### `vamshi@ai-lab:~$ whoami`
 
-\`\`\`python
-from dataclasses import dataclass, field
+**Vamshi Bachu** — AI engineer and backend developer interested in building practical LLM-powered systems. I work on retrieval pipelines, agentic workflows, MCP servers, and reliable backend applications.
 
-@dataclass
-class AIEngineer:
-    name: str = "Vamshi Bachu"
-    roles: tuple = ("AI Engineer", "Backend Developer")
-    languages: list = field(default_factory=lambda: ["Python", "Java", "SQL"])
-    builds: list = field(default_factory=lambda: [
-        "RAG pipelines", "agentic workflows", "MCP servers", "production backends",
-    ])
-    principles: list = field(default_factory=lambda: [
-        "ship beyond the demo",
-        "guardrails by default",
-        "retrieval quality before model size",
-        "if you can't explain it, you don't own it",
-    ])
+### `vamshi@ai-lab:~$ ls ~/projects`
 
-    def run(self):
-        while True:
-            self.learn(); self.build(); self.ship()
+| Project | Description |
+|:--|:--|
+| [docrag-mcp](https://github.com/Vamshi9415/docrag-mcp) | Document retrieval server with MCP, FAISS, embeddings and reranking. |
+| [guarded-ai-agent-mcp](https://github.com/Vamshi9415/guarded-ai-agent-mcp) | AI agent with tool policies, guardrails and human approval. |
+| [Ad-Forge](https://github.com/Vamshi9415/Ad-Forge) | Generative advertising pipeline from brief to media assets. |
+| [EnseSmells](https://github.com/Vamshi9415/EnseSmells_with_explanability_Ai) | Explainable multimodal ensemble for code-smell detection. |
+| [git-like-pdf-diff](https://github.com/Vamshi9415/git-like-pdf-diff) | Git-inspired PDF comparison. |
+| [OCR-MARKSHEET](https://github.com/Vamshi9415/OCR-MARKSHEET) | OCR-based marksheet data extraction. |
 
-if __name__ == "__main__":
-    AIEngineer().run()
-\`\`\`
+### `vamshi@ai-lab:~$ cat stack.txt`
 
----
+```text
+LANGUAGES      Python · Java · SQL
+BACKEND        FastAPI · REST APIs
+AI / ML        LLMs · RAG · LangChain · LangGraph · PyTorch
+AGENT SYSTEMS  MCP · Tool calling · Guardrails
+RETRIEVAL      FAISS · Sentence Transformers · Reranking
+INFRA          Docker · AWS · Linux · Git
+```
 
-\`\`\`bash
-vamshi@ai-lab:~$ ls -la ~/projects
-\`\`\`
+### `vamshi@ai-lab:~$ cat focus.txt`
 
-| 📁 repo | description | stack |
-|:--|:--|:--|
-| [`docrag-mcp`](https://github.com/Vamshi9415/docrag-mcp) | Document retrieval server over MCP with embeddings, FAISS and reranking | `RAG` `MCP` `FAISS` |
-| [`guarded-ai-agent-mcp`](https://github.com/Vamshi9415/guarded-ai-agent-mcp) | Tool-using agent with policy checks, guardrails and human approval flows | `Agents` `MCP` `Guardrails` |
-| [`Ad-Forge`](https://github.com/Vamshi9415/Ad-Forge) | Generative ad pipeline: briefs → storyboards → media assets | `GenAI` `Pipelines` |
-| [`EnseSmells`](https://github.com/Vamshi9415/EnseSmells_with_explanability_Ai) | Explainable multimodal ensemble for code-smell detection | `ML` `XAI` |
-| [`git-like-pdf-diff`](https://github.com/Vamshi9415/git-like-pdf-diff) | Git-style diffing for PDF documents | `Python` `Docs` |
-| [`OCR-MARKSHEET`](https://github.com/Vamshi9415/OCR-MARKSHEET) | OCR-based marksheet data extraction | `OCR` `Python` |
+- Building reliable agentic workflows
+- Improving document processing and retrieval quality
+- Designing production-ready backend services
 
----
+### `vamshi@ai-lab:~$ git status`
 
-\`\`\`bash
-vamshi@ai-lab:~$ cat architecture/rag_pipeline.mmd
-\`\`\`
+```text
+Learning      [####################] ongoing
+Building      [####################] ongoing
+Shipping      [####################] ongoing
+```
 
-\`\`\`mermaid
-%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#00ff41','primaryBorderColor':'#00ff41','lineColor':'#00ff41','fontFamily':'monospace'}}}%%
-flowchart LR
-    A[User query] --> B[Embed<br/>sentence-transformers]
-    B --> C[(FAISS index)]
-    C --> D[Top-k chunks]
-    D --> E[Reranker]
-    E --> F[LLM]
-    F --> G{Guardrails<br/>policy check}
-    G -- pass --> H[Answer + sources]
-    G -- risky --> I[Human approval]
-    I --> H
-\`\`\`
+<div align="center">
 
----
+<a href="https://github.com/Vamshi9415">
+  <img src="https://img.shields.io/badge/GitHub-Vamshi9415-0D1117?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub profile" />
+</a>
 
-\`\`\`bash
-vamshi@ai-lab:~$ python run_agent.py --task "summarize contract and email legal" --verbose
-\`\`\`
+<br/><sub>Stay curious. Build things. Understand how they work.</sub>
 
-\`\`\`text
-[plan]     1. retrieve_docs  2. summarize  3. send_email
-[tool]     retrieve_docs(query="contract") -> 6 chunks (reranked)
-[llm]      summarize(context=6 chunks) -> 142 tokens
-[policy]   send_email -> external recipient -> REQUIRES_APPROVAL
-[human]    approve send_email to legal@example.com? [y/N] y
-[tool]     send_email(to="legal@example.com") -> ok
-[done]     3 steps | 1 approval | 0 policy violations
-\`\`\`
-
-<sub>↑ illustrative trace of the guarded-agent pattern</sub>
-
----
-
-\`\`\`bash
-vamshi@ai-lab:~$ cat mcp.config.jsonc
-\`\`\`
-
-\`\`\`jsonc
-{
-  "mcpServers": {
-    "docrag":        { "role": "retrieval over private documents" },
-    "guarded-agent": { "role": "tool calling with policy + approval" }
-  },
-  "principles": ["least privilege", "human in the loop for risky actions", "log everything"]
-}
-\`\`\`
-
----
-
-\`\`\`bash
-vamshi@ai-lab:~$ pip freeze | grep -i "ai-stack"
-\`\`\`
-
-\`\`\`text
-fastapi
-langchain
-langgraph
-torch
-sentence-transformers
-faiss-cpu
-docker
-\`\`\`
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,postgres,fastapi,pytorch,docker,aws,linux,git&theme=dark" alt="skills" />
-</p>
-
-\`\`\`text
-Languages      : Python, Java, SQL
-Backend        : FastAPI, REST APIs
-AI / ML        : LLMs, RAG, LangChain, LangGraph, PyTorch
-Agent Systems  : MCP, tool calling, guardrails
-Retrieval      : FAISS, sentence-transformers, reranking
-Infrastructure : Docker, AWS, Linux, Git
-\`\`\`
-
----
-
-\`\`\`bash
-vamshi@ai-lab:~$ git log --stat --author="vamshi"
-\`\`\`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Vamshi9415&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&text_bold=false" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vamshi9415&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9" alt="top languages" />
-</p>
-
----
-
-\`\`\`bash
-vamshi@ai-lab:~$ cat experiments.todo
-\`\`\`
-
-- [x] RAG with embeddings, FAISS and reranking
-- [x] Agents with guardrails and human approval
-- [ ] Reliable multi-step agentic workflows
-- [ ] Better document processing and retrieval quality
-- [ ] Production-ready backend services for LLM apps
-
----
-
-\`\`\`bash
-vamshi@ai-lab:~$ ./connect.sh
-\`\`\`
-
-<p>
-  <a href="https://github.com/Vamshi9415"><img src="https://img.shields.io/badge/github-Vamshi9415-0D1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0D1117&color=00FF41" alt="GitHub" /></a>
-</p>
-
-\`\`\`bash
-vamshi@ai-lab:~$ echo "Stay curious. Build things. Understand how they work."
-Stay curious. Build things. Understand how they work.
-vamshi@ai-lab:~$ █
-\`\`\`
+</div>
