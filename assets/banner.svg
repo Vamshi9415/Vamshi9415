@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Vamshi Bachu — AI Engineer and Backend Developer">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="758" height="298" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<path d="M1 13a12 12 0 0 1 12-12h734a12 12 0 0 1 12 12v28H1z" fill="#161b22"/>
+<circle cx="26" cy="20" r="6" fill="#ff5f56"/><circle cx="48" cy="20" r="6" fill="#ffbd2e"/><circle cx="70" cy="20" r="6" fill="#27c93f"/>
+<text x="380" y="25" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">vamshi@ai-lab: ~</text>
+<text x="40" y="78" fill="#00ff41" font-family="monospace" font-size="16">vamshi@ai-lab:~$ whoami</text>
+<g fill="#00ff41" filter="url(#glow)" font-family="monospace" font-weight="bold" font-size="42" letter-spacing="2">
+<text x="40" y="151">VAMSHI</text><text x="40" y="198">BACHU</text>
+</g>
+<text x="42" y="235" fill="#c9d1d9" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">AI ENGINEER  ·  BACKEND DEVELOPER</text>
+<text x="42" y="266" fill="#8b949e" font-family="monospace" font-size="14">retrieval → reasoning → action</text>
+<text x="42" y="289" fill="#00ff41" font-family="monospace" font-size="15">vamshi@ai-lab:~$ <tspan fill="#c9d1d9">█</tspan></text>
+</svg>
